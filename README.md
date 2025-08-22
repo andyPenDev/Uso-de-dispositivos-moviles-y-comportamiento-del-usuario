@@ -1,7 +1,8 @@
 # Uso-de-dispositivos-moviles-y-comportamiento-del-usuario
 El objetivo es identificar por medio de una regresión lineal múltiple los factores relevantes que pueden influir en la cantidad de tiempo  invertida por cada persona en las aplicaciones y aprovechar estos patrones para mejorar la  experiencia de los consumidores.
 
-1. Estructura del Informe 
+1. Estructura del Informe
+   
 Este informe se organiza en varias secciones clave que permiten analizar el comportamiento de las personas de dispositivos móviles.
 
 1.2.  Descripción del Dataset 
@@ -17,7 +18,7 @@ Aquí se explica el modelo de regresión lineal múltiple utilizado para predeci
 1.5.  Bootstrapping   
 Por último, se explica la técnica de bootstrapping, que se implementa para generar intervalos de confianza y mejorar la precisión del modelo. Donde se compara las distribuciones del modelo inicial y después utilizando bootstrapping 
 
-2. Metodología
+# 2. Metodología
    
 2.1. Descripción del Dataset Descripción del dataset utilizado: origen, variables, tamaño, y características relevantes.  La siguiente base de datos fue tomada de la plataforma de ciencia de datos conocida como Kaggle. Cuenta con 700 muestras sobre el análisis de los patrones de uso de dispositivos 
 móviles y la clasificación del comportamiento de los usuarios. Además, contiene algunos apartados como el consumo de batería, tiempo en pantalla y hasta una clasificación del usuario de 1 a 5, que va desde el uso leve al uso extremo.
@@ -56,7 +57,7 @@ En primer lugar, llamamos la base de datos sobre el uso de dispositivos móviles
 
 <img width="384" height="215" alt="image" src="https://github.com/user-attachments/assets/870c5d20-4223-4559-adea-a80975a85932" />
 
-DATOS FALTANTES
+# DATOS FALTANTES
 
 
 <img width="274" height="187" alt="image" src="https://github.com/user-attachments/assets/da1d8791-c79b-443c-8ecb-4784a3b663c4" />
@@ -108,7 +109,7 @@ de aplicaciones, y se observa que las variables más importantes para predecir e
 El proceso de selección por AIC identificó un modelo más eficiente eliminando las variables no significativas como edad y sistema operativo, lo que redujo el AIC de 2007.46 a 2011.37. El 
 modelo final incluye las variables más relevantes: número de aplicaciones instaladas, tiempo de pantalla encendida, consumo de batería y uso de datos, todas altamente significativas y con impacto positivo en el tiempo de uso de aplicaciones. Este modelo balancea simplicidad y ajuste, enfocándose en los predictores claves para explicar la variación en el tiempo de uso.
 
-Validación de supuestos 
+# Validación de supuestos 
 1. Normalidad de los residuos
 
 <img width="377" height="236" alt="image" src="https://github.com/user-attachments/assets/81b5a7bd-2dae-4d54-b6e5-e411a9363745" />
@@ -178,7 +179,7 @@ deducciones con mayor certeza. En general, este análisis no solo proporciona in
 los usuarios de dispositivos móviles y como estos patrones pueden ser aprovechados para mejorar la experiencia del usuario como la estrategia comercial de las aplicaciones móviles, ya que ayuda a comprender mejor los factores que logran influir en el uso de estas y así las empresas pueden diseñar experiencias más personalizadas, optimizar sus servicios y desarrollar estrategias de monetización más efectivas. 
 
 
-Referencias 
+# Referencias 
 Khorasani, V. (n.d.). Mobile device usage and user behavior dataset [Conjunto de datos] 
 .Kaggle. https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user
 behavior-dataset/data
