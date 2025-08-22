@@ -4,17 +4,17 @@ El objetivo es identificar por medio de una regresión lineal múltiple los fact
 1. Estructura del Informe 
 Este informe se organiza en varias secciones clave que permiten analizar el comportamiento de las personas de dispositivos móviles.
 
-1.2 Descripción del Dataset 
+1.2. Descripción del Dataset 
 En esta primera sección se detalla el origen y las características del conjunto de datos utilizados para el análisis. También proporciona una breve descripción de cada variable en el dataset. 
 
-1.3 EDA 
+1.3. EDA 
 En esta parte se describen las técnicas empleadas para la exploración y visualización de los datos. Se utilizan funciones como summary y str para revisar el estado de las variables, 
 además se presentan estadísticas descriptivas de las variables, incluyendo rangos, medias, medianas y distribuciones, para identificar patrones y tendencias en el uso de dispositivos móviles. 
 
-1.4 Modelo de Regresión Lineal Múltiple 
+1.4. Modelo de Regresión Lineal Múltiple 
 Aquí se explica el modelo de regresión lineal múltiple utilizado para predecir el tiempo de uso de aplicaciones basado en variables independientes. También se menciona el proceso de selección del modelo y la validación de los supuestos, incluyendo la normalidad de los residuos, la homocedasticidad, la autocorrelación de errores y la multicolinealidad. 
 
-1.5 Bootstrapping   
+1.5.  Bootstrapping   
 Por último, se explica la técnica de bootstrapping, que se implementa para generar intervalos de confianza y mejorar la precisión del modelo. Donde se compara las distribuciones del modelo inicial y después utilizando bootstrapping 
 
 2. Metodología  
@@ -23,17 +23,27 @@ móviles y la clasificación del comportamiento de los usuarios. Además, contie
 
 Variables: 
 • User ID (ID usuario) 
+
 • Device Model (modelo del dispositivo) 
+
 • Operating System (sistema operativo): Android o iOS 
+
 • App Usage Time (Tiempo de uso de las aplicaciones):  Tiempo dedicado al, uso de las aplicaciones medida en minutos por día. 
+
 • Screen On Time (Tiempo en pantalla):  promedio medido en horas por dían en la que panatalla está activa. 
-• Battery Drain (consumo de bateria): Consumo diario de batería medida miliamperios hora (mAh) 
-• Number of Apps Installed (Número de apps instaladas): total de aplicaciones disponibles en el dispositivo 
+
+• Battery Drain (consumo de bateria): Consumo diario de batería medida miliamperios hora (mAh).
+
+• Number of Apps Installed (Número de apps instaladas): total de aplicaciones disponibles en el dispositivo.
+
 • Data Usage (Uso de datos): Consumo diario de datos móviles en megabytes. 
 • Age (edad) 
-• Gender (sexo): Hombre o Mujer 
+
+• Gender (sexo): Hombre o Mujer .
+
 • User Behavior Class (clase de comportamiento del usuario): el patrón va 1 a 5 dependiendo del uso del dispositivo. Por otro lado, el conjunto de datos fue tomado y realizado por estudios de investigación 
-en plataformas como Statista y Encuestas Pew Research  
+en plataformas como Statista y Encuestas Pew Research .
+
 
 2.2. Análisis Exploratorio de Datos (EDA) Métodos y herramientas utilizadas para el EDA. Incluye técnicas para la exploración de datos, visualización, y manejo de valores faltantes y atípicos.  
 En primer lugar, llamamos la base de datos sobre el uso de dispositivos móviles y el comportamiento de los usuarios, luego llamamos las librerías oportunas.  Luego a través de funciones como Summary y str, verificamos la condición de cada variable con el fin realizar la visualización de datos correctamente. 
@@ -42,6 +52,8 @@ En primer lugar, llamamos la base de datos sobre el uso de dispositivos móviles
 <img width="384" height="215" alt="image" src="https://github.com/user-attachments/assets/870c5d20-4223-4559-adea-a80975a85932" />
 
 DATOS FALTANTES
+
+
 <img width="274" height="187" alt="image" src="https://github.com/user-attachments/assets/da1d8791-c79b-443c-8ecb-4784a3b663c4" />
 El conjunto de datos analizados no presenta valores faltantes en ninguna de las variables evaluadas. Por lo que la base de datos es adecuada para realizar análisis posteriores o aplicar modelos predictivos sin la necesidad de realizar tareas de limpieza relacionadas con datos incompletos. 
 <img width="401" height="273" alt="image" src="https://github.com/user-attachments/assets/da563152-c29e-48eb-bf7c-015a77548d03" />
