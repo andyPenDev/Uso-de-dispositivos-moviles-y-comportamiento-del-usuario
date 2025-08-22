@@ -57,7 +57,7 @@ En primer lugar, llamamos la base de datos sobre el uso de dispositivos móviles
 
 <img width="384" height="215" alt="image" src="https://github.com/user-attachments/assets/870c5d20-4223-4559-adea-a80975a85932" />
 
-## DATOS FALTANTES
+## Datos faltantes
 
 
 <img width="274" height="187" alt="image" src="https://github.com/user-attachments/assets/da1d8791-c79b-443c-8ecb-4784a3b663c4" />
