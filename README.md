@@ -58,6 +58,7 @@ Este gráfico divide a los usuarios según el sistema operativo (iOS y Android).
 dispositivos. Esto significa que casi 4 de cada 5 dispositivos utilizan Android. iOS, el sistema operativo de Apple, tiene una participación del 20.9%, aunque es un porcentaje significativo, se encuentra por debajo de Android. A nivel general, los usuarios prefieren Android como sistema operativo para sus dispositivos. Esto podría deberse a diversos factores como la mayor variedad de dispositivos Android disponibles, precios más accesibles o características específicas. 
 
 <img width="404" height="244" alt="image" src="https://github.com/user-attachments/assets/e13480aa-29cd-49cb-a413-99650e20d9f7" />
+
 Este gráfico muestra cuántos usuarios tienen instaladas distintas cantidades de 
 aplicaciones en sus dispositivos. La mayor parte de los usuarios tiene entre 15 y 25 aplicaciones instaladas, como lo indican las barras más altas. Esto sugiere este rango como el estándar promedio entre usuarios. A partir de las 30 aplicaciones instaladas, el número de usuarios empieza a descender de manera constante, por lo que no es común instalar una cantidad elevada de aplicaciones. Aunque hay usuarios con más de 75 aplicaciones, su proporción es mucho menor.
 
@@ -68,9 +69,11 @@ Las mujeres en ambos sistemas operativos muestran un patrón de uso bastante sim
 
 2.3. Modelado de Regresión Lineal Múltiple Descripción del modelo de regresión 
 lineal múltiple: variables dependientes e independientes, procedimiento de ajuste, y evaluación del modelo.  
+
 <img width="186" height="59" alt="image" src="https://github.com/user-attachments/assets/fe2a5766-66d0-422e-8f4e-ef948eafb944" />
 
 La variable dependiente que se decidió usar para el modelo, fue el tiempo de uso de aplicaciones (App Usage Time).  
+
 <img width="413" height="260" alt="image" src="https://github.com/user-attachments/assets/7084305d-984a-454e-9d8c-2594211e27b0" />
 
 El modelo de regresión revela que el número de aplicaciones instaladas, el tiempo de pantalla encendida, el consumo de datos y el consumo de batería son las variables más significativas para predecir el tiempo de uso de aplicaciones, con impactos positivos y relevantes. Cada aplicación instalada aumenta en promedio 1,75 minutos el uso, y un minuto adicional de tiempo de pantalla lo incrementa en 12,27 minutos. En contraste, variables como sistema operativo, género y edad no tienen una influencia significativa en el modelo.
@@ -89,16 +92,19 @@ Validación de supuestos
 1. Normalidad de los residuos
 
 <img width="377" height="236" alt="image" src="https://github.com/user-attachments/assets/81b5a7bd-2dae-4d54-b6e5-e411a9363745" />
+
 El histograma de los residuos muestra una distribución aproximadamente normal, con una forma de campana simétrica alrededor de 0, lo que indica que los errores no están sesgados hacia valores positivos o negativos. La mayor concentración de residuos cerca de 0 sugiere que el modelo predice bien la mayoría de los valores, y no se observan valores atípicos. 
 
 <img width="347" height="236" alt="image" src="https://github.com/user-attachments/assets/91370588-5ca1-429d-b1f6-11b0f38df0cd" />
 
 Teniendo en cuenta los gráficos, notamos que los residuos del modelo se distribuyen de manera normal, el cual es comprobado con los tests respectivos para medir la normalidad.
+
 <img width="197" height="94" alt="image" src="https://github.com/user-attachments/assets/bad8780d-5117-45e0-9386-58cfa11acfab" />
 
 Determina si los residuos siguen una distribución normal, un supuesto. Como el valor p 0.3866 es mayor a un nivel de significancia común 0.05, no se rechaza la hipótesis nula de normalidad. Esto indica que los residuos del modelo pueden considerarse normalmente distribuidos. 
 
 2. Homocedasticidad
+   
 <img width="223" height="80" alt="image" src="https://github.com/user-attachments/assets/0692cac3-8748-4836-bfe2-ca0d4a922137" />
 
 Evalúa si los residuos presentan homocedasticidad. Dado que el valor p es extremadamente pequeño mucho menor que 0.050, se rechaza la hipótesis nula de homocedasticidad. 
