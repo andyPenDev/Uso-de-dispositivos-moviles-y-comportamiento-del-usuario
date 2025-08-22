@@ -55,8 +55,11 @@ DATOS FALTANTES
 
 
 <img width="274" height="187" alt="image" src="https://github.com/user-attachments/assets/da1d8791-c79b-443c-8ecb-4784a3b663c4" />
+
 El conjunto de datos analizados no presenta valores faltantes en ninguna de las variables evaluadas. Por lo que la base de datos es adecuada para realizar análisis posteriores o aplicar modelos predictivos sin la necesidad de realizar tareas de limpieza relacionadas con datos incompletos. 
+
 <img width="401" height="273" alt="image" src="https://github.com/user-attachments/assets/da563152-c29e-48eb-bf7c-015a77548d03" />
+
 El boxplot muestra un conjunto de datos bien estructurado y sin valores atípicos, lo que facilita el análisis. Las variables reflejan consistencia en ciertos patrones de uso, mientras que las otras muestran alta dispersión lo que sugiere diversidad en los patrones de uso entre los usuarios.
 
 <img width="407" height="341" alt="image" src="https://github.com/user-attachments/assets/2e433719-c20a-49d1-9764-b3254181da70" />
@@ -160,7 +163,8 @@ En este caso, se obtuvieron los resultados de los intervalos de confianza de los
 
 Notamos que al tener un valor p alto (generalmente mayor que 0.05) sugiere que no se rechaza la hipótesis nula, lo que significa que los coeficientes siguen una distribución normal. Todos los valores p para los coeficientes son mayores que 0.05, lo que indica que no se rechaza la hipótesis nula en ninguno de los casos. En otras palabras, según el test de ShapiroWilk, los coeficientes del modelo (los resultados del bootstrapping) siguen una distribución normal.  
 
-Conclusión 
+# Conclusión 
+
 Mediante el análisis del conjunto de datos sobre el uso de dispositivos móviles y el comportamiento de los usuarios permitió identificar patrones claves que influyen en el tiempo de uso de las aplicaciones. A través de exploración de datos, se observó que variables como cantidad de aplicaciones instaladas, el tiempo de pantalla encendida, el consumo de batería y el uso de datos son los principales predictores del comportamiento de las personas. El modelo de regresión múltiple desarrollado logra mostrar una alta capacidad explicativa, ya que con un R-cuadrado ajustado del 94.43%, indicando así que el modelo logra predecir adecuadamente el tiempo de uso de las aplicaciones. Sin embargo, se identificaron problemas de multicolinealidad entre algunas variables, lo cual se corrigió eliminado las que tuvieran una alta 
 correlación, haciendo el modelo más estable y dando una interpretación más precisa de los coeficientes. 
 
