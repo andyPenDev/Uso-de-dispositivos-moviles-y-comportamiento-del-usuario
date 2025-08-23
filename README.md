@@ -40,6 +40,7 @@ Variables:
 • Number of Apps Installed (Número de apps instaladas): total de aplicaciones disponibles en el dispositivo.
 
 • Data Usage (Uso de datos): Consumo diario de datos móviles en megabytes. 
+
 • Age (edad) 
 
 • Gender (sexo): Hombre o Mujer .
@@ -181,8 +182,7 @@ los usuarios de dispositivos móviles y como estos patrones pueden ser aprovecha
 
 # Referencias 
 Khorasani, V. (n.d.). Mobile device usage and user behavior dataset [Conjunto de datos] 
-.Kaggle. https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user
-behavior-dataset/data
+.Kaggle. https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset/data
 
 
 
